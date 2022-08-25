@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    --primary-color:#87b8e4;
+    --white-color:#FFFFFF;
+}
+.container{
+    background-color:var(--primary-color);
+    color:var(--white-color);
+    padding:20px;
+    display:flex;
+    justify-content:center;
+}
+.menu{
+    width:900px;
+    border:2px solid var(--white-color);
+    display:flex;
+    justify-content:space-between;
+}
+.links{
+    display:flex;
+    justify-content:flex-end;
+}
+.login{
+    margin-left:20px;
+}
