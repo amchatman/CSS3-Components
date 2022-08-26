@@ -4,6 +4,7 @@
     box-sizing:border-box;
     --primary-color:#87b8e4;
     --white-color:#FFFFFF;
+    --secondary-color:#b8d8ff;
 }
 .container{
     background-color:var(--primary-color);
@@ -24,4 +25,32 @@
 }
 .login{
     margin-left:20px;
+}
+.header-container{
+    background-color:var(--secondary-color);
+    color:var(--white-color);
+    display:flex;
+    justify-content:center;
+}
+.header{
+    width:900px;
+    height:300px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.photo-container{
+    display:flex;
+    justify-content:center;
+}
+.photo-grid{
+    width:900px;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+.photo-grid-item{
+    width:300px;
+    height:300px;
+    border:1px solid var(--white-color);
 }
