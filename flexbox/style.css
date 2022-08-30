@@ -19,10 +19,6 @@
     display:flex;
     justify-content:space-between;
 }
-.links{
-    display:flex;
-    justify-content:flex-end;
-}
 .login{
     margin-left:20px;
 }
@@ -48,9 +44,39 @@
     display:flex;
     justify-content:center;
     flex-wrap:wrap;
+    flex-direction:row;
+    align-items:center;
 }
 .photo-grid-item{
     width:300px;
     height:300px;
     border:1px solid var(--white-color);
+}
+.first-item{
+    order:1;
+}
+.last-item{
+    order:-1;
+}
+.social,.subscribe{
+    align-self:flex-end;
+    margin-bottom:20pz;
+}
+.footer{
+    display:flex;
+    justify-content:space-between;
+}
+.footer-item{
+    border:1px solid var(--white-color);
+    background-color:var(--primary-color);
+    height:200px;
+    flex:1;
+}
+.footer-one,.footer-three{
+    background-color:#5995DA;
+    flex:initial;
+    width:300px;
+}
+.signup{
+    margin-left:auto;
 }
