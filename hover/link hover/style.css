@@ -5,7 +5,7 @@ box-sizing: border-box;
 --orange:#F27405;
 --black:#0D0D0D;
 --white:#F2F2F2;
---lightblue:#41BDD9;
+--orangered:#BF452A;
 }
 body{
     background-color:var(--orange);
@@ -57,6 +57,8 @@ h1,h2,h3{
 .right-title{
     text-align:right;
     color:var(--white);
+    background-color:var(--black);
+    padding-right:10px;
 }
 .homebody{
     padding-bottom:20px;
@@ -70,10 +72,13 @@ h1,h2,h3{
 .caps{
     font-size:30px;
     font-weight:700;
-    color:var(--lightblue);
+    color:var(--orangered);
 }
 .highlight{
-    background-color:var(--lightblue);
+    background-color:var(--orangered);
     color:var(--white);
     padding:1px;
+}
+.link{
+    color:var(--orangered);
 }
