@@ -2,6 +2,13 @@
 margin:0;
 padding:0;
 box-sizing: border-box;
+--orange:#F27405;
+--black:#0D0D0D;
+--white:#F2F2F2;
+--lightblue:#41BDD9;
+}
+body{
+    background-color:var(--orange);
 }
 .container{
     margin:25px auto;
@@ -12,11 +19,15 @@ box-sizing: border-box;
     display:flex;
 }
 h1{
-    font-weight:900;
-    font-size:50px;
+    font-weight:700;
+    font-size: 50px;
+    text-align:center;
 }
 h1,h2{
     text-transform:uppercase;
+}
+h1,h2,h3{
+    font-family:oswald, sans-serif;
 }
 .lyric-1,.lyric-2{
     margin:20px;
@@ -29,13 +40,40 @@ h1,h2{
     margin:20px;
     padding:5px;
 }
+.song-lyric-container{
+    background-color:#FFD9A6;
+    padding:20px;
+}
 .song-lyric{
     text-align:justify;
-    line-height:30px;
+    line-height:26px;
+    font-size:14px;
+    font-family:roboto,sans-serif;
 }
 .sideway-title{
     text-align:center;
+    color:var(--white);
 }
 .right-title{
     text-align:right;
+    color:var(--white);
+}
+.homebody{
+    padding-bottom:20px;
+}
+.pushme{
+    padding-left:5px;
+}
+.tid{
+    padding-bottom:15px;
+}
+.caps{
+    font-size:30px;
+    font-weight:700;
+    color:var(--lightblue);
+}
+.highlight{
+    background-color:var(--lightblue);
+    color:var(--white);
+    padding:1px;
 }
