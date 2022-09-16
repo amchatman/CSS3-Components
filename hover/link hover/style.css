@@ -70,12 +70,26 @@ h1,h2,h3{
     color:var(--orange);
 }
 .highlight{
-    background-color:var(--black);
-    color:var(--white);
     padding:1px;
+    background-image: linear-gradient(black 50%, var(--orange) 50%);
+    background-size: auto 175%;
+    transition: background 0.3s ease-in-out;
+    color:var(--white);
+}
+.highlight:hover{
+    background-position-y: 100%;
+    cursor:pointer;
 }
 .link{
     color:var(--orange);
+    box-shadow: inset 0 0 0 0 var(--orange);
+    transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.link:hover{
+    color:var(--white);
+    box-shadow: inset 150px 0 0 0 var(--orange);
+    cursor:pointer;
+
 }
 .white{
     color:var(--white);
