@@ -33,6 +33,9 @@ h1,h2{
 h1,h2,h3{
     font-family:oswald, sans-serif;
 }
+h3{
+    text-align:center;
+}
 .lyric-1,.lyric-2{
     margin:20px;
     padding:5px;
@@ -100,4 +103,15 @@ h1,h2,h3{
 }
 .second-song{
     height:730px;
+}
+.artist{
+    text-transform:none;
+}
+@media screen and (max-width: 600px) {
+    .container{
+        width:100%;
+    }
+    .song-container{
+        display:block;
+    }
 }
