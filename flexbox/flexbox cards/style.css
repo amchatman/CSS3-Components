@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    display:flex;
+    justify-content:center;
+    background-color:#0D0D0D;
+}
+#card-container{
+    display:flex;
+    justify-content:center;
+    margin-top:100px;
+    height:500px;
+}
+.card{
+    width:300px;
+    height:400px;
+    /*border:2px solid black;*/
+    display:flex;
+    justify-content: center;
+    margin:5px;
+}
+.card-image{
+    width:300px;
+    background-size:cover;
+}
+.card-image.card-1{
+    background-image:url(images/andrey-zvyagintsev-_fvUcz1H6EY-unsplash.jpg);
+}
+.card-image.card-2{
+    background-image:url(images/ben-blennerhassett-ZXfUUM_LR0k-unsplash.jpg);
+}
+.card-image.card-3{
+    background-image:url(images/richard-jaimes-4B6-E8c7t9I-unsplash.jpg);
+}
+.card-image.card-4{
+    background-image:url(images/salem-ochidi-5XdgEXbx1UA-unsplash.jpg);
+}
+@keyframes hover{
+    50%{
+        transform:translateY(-5px);
+    }
+    100%{
+        transfrom:translateY(-10px);
+    }
+}
+.card-image.card-1:hover{
+    box-shadow: 0 80px 80px -60px #591623;
+    transform:translateY(-10px);
+    animation-name:hover;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+    transform:translateY(-10px);
+}
