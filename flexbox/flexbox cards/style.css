@@ -13,15 +13,18 @@ body{
     justify-content:center;
     margin-top:100px;
     height:500px;
+    /*border:2px solid black;*/
 }
 .card{
     display:flex;
     justify-content: center;
     margin:5px;
+    /*border:2px solid black;*/
 }
 .card-image{
     width:300px;
     background-size:cover;
+    /*border:2px solid black;*/
 }
 .card-image.card-1{
     background-image:url(images/andrey-zvyagintsev-_fvUcz1H6EY-unsplash.jpg);
