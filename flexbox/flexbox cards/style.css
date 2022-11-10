@@ -45,7 +45,10 @@ body{
         transfrom:translateY(-10px);
     }
 }
-.card-image.card-1:hover,.card-image.card-2:hover,.card-image.card-3:hover,.card-image.card-4:hover{
+.card-image.card-1:hover,
+.card-image.card-2:hover,
+.card-image.card-3:hover,
+.card-image.card-4:hover{
     transform:translateY(-10px);
     animation-name:hover;
     animation-duration:2s;
