@@ -24,6 +24,19 @@
         --card-background:var(--whitegray);
     }
 }
+body[data-theme='dark'] {
+    --text-color:var(--whitegray);
+    --accent-color:var(--purple);
+    --page-background:var(--offblack);
+    --card-background:var(--offblack);
+  }
+  
+  body[data-theme='light'] {
+    --text-color:var(--offblack);
+    --accent-color:var(--purple);
+    --page-background:var(--whitegray);
+    --card-background:var(--whitegray);
+  }
 body{
     display:flex;
     justify-content:center;
@@ -38,7 +51,6 @@ body{
     align-items:center;
     width:50%;
     border:10px solid var(--accent-color);
-    background-color:var(--page-background);
 }
 .container p{
     line-height:25px;
@@ -47,14 +59,13 @@ body{
     position:relative;
     top:3.125rem;
     left:12.5rem;
-
 }
 .toggle-select {
     border: 5px solid var(--accent-color);
     padding:0.625rem;
-    background-color:var(--page-background);
-    color:var(--text-color);
     font-size:1.125rem;
+    background-color:var(--card-background);
+    color:var(--text-color);
   }
 .content{
     padding:1.5625rem;
