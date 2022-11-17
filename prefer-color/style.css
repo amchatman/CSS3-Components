@@ -9,7 +9,7 @@
     --whitegray:#D9D9D9;
 }
 @media(prefers-color-scheme: dark){
-    *{
+    :root{
         --text-color:var(--whitegray);
         --accent-color:var(--purple);
         --page-background:var(--offblack);
@@ -17,7 +17,7 @@
     }
 }
 @media(prefers-color-scheme: light){
-    *{
+    :root{
         --text-color:var(--offblack);
         --accent-color:var(--purple);
         --page-background:var(--whitegray);
